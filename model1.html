@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>Model</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+
+	<body class="h-screen flex flex-col">
+		<header class="flex p-10 items-center bg-red-500">
+			<h1>
+				<img
+					src="https://cdn.worldvectorlogo.com/logos/nike-11.svg"
+					class="w-60" />
+			</h1>
+			<nav>
+				<ul class="flex gap-5">
+					<li>
+						<a href="#" class="px-4 py-2 rounded-lg bg-white">pagina 1</a>
+					</li>
+					<li>
+						<a href="#" class="px-4 py-2 rounded-lg bg-white">pagina 2</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="flex flex-1 justify-center items-center bg-gray-500">
+			<aside class="w-1/3 flex flex-col gap-10 p-10 bg-blue-500">
+				<div class="w-full p-10 bg-orange-500">
+					<h3 class="text-xl">Titulo do Filtro</h3>
+					<ul>
+						<li>
+							<label>
+								<input type="checkbox" />
+								Item para selecao
+							</label>
+						</li>
+						<li>
+							<input type="checkbox" id="campo-outro" />
+							<label for="campo-outro"> selecione </label>
+						</li>
+					</ul>
+				</div>
+
+				<div class="w-full p-10 bg-orange-500">
+					<h3 class="text-xl">Filtro</h3>
+					<ul>
+						<li>
+							<label>
+								<input type="checkbox" />
+								Selecione o input
+							</label>
+						</li>
+						<li>
+							<input type="checkbox" id="campo-feliz" />
+							<label for="campo-feliz"> Seja Feliz </label>
+						</li>
+					</ul>
+				</div>
+			</aside>
+
+			<section class="w-2/3 bg-amber-500">#section</section>
+		</main>
+
+		<footer class="h-40 flex justify-center items-end p-5 bg-green-500">
+			<address class="not-italic">avenida brasil</address>
+		</footer>
+	</body>
+</html>
