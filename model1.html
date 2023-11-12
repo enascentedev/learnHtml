@@ -35,6 +35,9 @@
 					<li>
 						<a href="#" class="px-4 py-2 rounded-lg bg-white">pagina 2</a>
 					</li>
+					<li>
+						<a href="#" class="px-4 py-2 rounded-lg bg-white">pagina 2</a>
+					</li>
 				</ul>
 			</nav>
 		</header>
@@ -77,8 +80,29 @@
 			<section class="w-2/3 bg-amber-500">#section</section>
 		</main>
 
-		<footer class="h-40 gri bg-green-500">
-			<address class="not-italic">avenida brasil</address>
+		<footer class="h-40 grid grid-cols-3 justify-items-center bg-green-500">
+			<ul class="justify-self-start px-10">
+				<li><a href="#">item</a></li>
+				<li><a href="#">item</a></li>
+				<li><a href="#">item</a></li>
+				<li><a href="#">item</a></li>
+				<li><a href="#">item</a></li>
+			</ul>
+			<form action="/enviar" method="post">
+				<label for="mensagem">Alguma sugestão e/ou dúvida?</label>
+				<textarea
+					id="mensagemFooter"
+					name="name"
+					rows="4"
+					cols="50"
+					placeholder="Digite sua mensagem"></textarea>
+				<button type="submit">Enviar</button>
+			</form>
+			<address class="not-italic justify-self-end px-10">
+				endereço<br />
+				<a href="tel:+5133655243">(51) 33655243</a> |
+				<a href="mailto:contato@contato.com.br">contato@contato.com.br</a>
+			</address>
 		</footer>
 	</body>
 </html>
