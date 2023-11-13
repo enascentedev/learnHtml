@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8" />
 		<title>Model</title>
 		<script src="https://cdn.tailwindcss.com"></script>
 		<link
@@ -8,25 +10,28 @@
 	</head>
 
 	<body class="h-screen flex flex-col">
+		<!-- header -->
 		<header class="flex p-10 items-center bg-white h-11">
 			<h1>
 				<img
+					alt="logotipo"
 					src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ZDF_logo%21_Logo_2021.svg/768px-ZDF_logo%21_Logo_2021.svg.png?20211204213142"
 					class="w-20 h-10 mr-4" />
 			</h1>
 			<nav class="flex-1 justify-start px-10">
 				<ul class="flex gap-5">
 					<li>
-						<a href="#" class="px-4 py-2 rounded-lg bg-white">pagina 1</a>
+						<i class="fas fa-search"></i>
+						<i class="fas fa-sort-down px-2"></i>
 					</li>
 					<li>
-						<a href="#" class="px-4 py-2 rounded-lg bg-white">pagina 2</a>
+						<a href="#" class="px-4 py-2 rounded-lg bg-white">Produto</a>
 					</li>
 					<li>
-						<a href="#" class="px-4 py-2 rounded-lg bg-white">pagina 3</a>
+						<a href="#" class="px-4 py-2 rounded-lg bg-white">Mercado</a>
 					</li>
 					<li>
-						<a href="#" class="px-4 py-2 rounded-lg bg-white">pagina 4</a>
+						<a href="#" class="px-4 py-2 rounded-lg bg-white">Relatório</a>
 					</li>
 				</ul>
 			</nav>
@@ -45,7 +50,10 @@
 			</nav>
 		</header>
 
+		<!-- main -->
 		<main class="flex flex-1 justify-center items-center bg-gray-500">
+			<!-- filtros -->
+
 			<aside class="w-1/6 flex flex-col gap-10 p-5 bg-gray-400 h-full">
 				<div class="w-full p-5 bg-white">
 					<h3 class="text-xl">Filtro 1</h3>
@@ -80,6 +88,7 @@
 						</li>
 					</ul>
 				</div>
+				<!-- colocar botão enviar filtro -->
 				<div class="w-full p-5 bg-white">
 					<h3 class="text-xl">Filtro 3</h3>
 					<ul>
@@ -96,6 +105,7 @@
 				</div>
 			</aside>
 
+			<!-- evitar usar section dentyro de section -->
 			<section class="w-5/6 bg-gray-400 h-full">
 				<nav class="py-3 bg">
 					<ul class="flex gap-20">
@@ -119,7 +129,7 @@
 						</li>
 					</ul>
 				</nav>
-				<section class="py-5">
+				<div class="py-5">
 					<ul class="flex items-center justify-between">
 						<li>Mostrando:</li>
 						<li><strong>342086</strong> ofertas</li>
@@ -132,7 +142,7 @@
 							<li>Automóveis e Veículos</li>
 						</ul>
 					</ul>
-				</section>
+				</div>
 				<section>
 					<div class="flex items-center justify-between">
 						<div class="flex">
@@ -204,17 +214,18 @@
 
 		<footer class="h-40 grid grid-cols-3 justify-items-center bg-gray-200">
 			<ul class="justify-self-start px-10">
-				<li><a href="#">item</a></li>
-				<li><a href="#">item</a></li>
-				<li><a href="#">item</a></li>
+				<li><a href="#">Faq</a></li>
+				<li><a href="#">sobre</a></li>
+				<li><a href="#">sistema</a></li>
 				<li><a href="#">item</a></li>
 				<li><a href="#">item</a></li>
 			</ul>
+			<!-- mudar endereço do action, id for igual a id do text area  e input com nome  -->
 			<form action="/enviar" method="post">
 				<label for="mensagem">Alguma sugestão e/ou dúvida?</label>
 				<textarea
-					id="mensagemFooter"
-					name="name"
+					id="mensagem"
+					name=""
 					rows="4"
 					cols="50"
 					placeholder="Digite sua mensagem"></textarea>

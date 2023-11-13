@@ -68,11 +68,10 @@ Tipo: Contato/Semântica, é utilizada para fornecer informações de contato pa
 Tipo: Texto/Agrupamento, define um grupo de texto inline é usada para estilizar partes do texto ou agrupar elementos inline para estilização.
 -- ----- ----- -----
 <section>
-Tipo: Estrutura/Semântica, define uma seção dentro de um documento, tipicamente com um tema ou tópico específico. é usada para organizar o conteúdo em seções lógicas, ajudando na estruturação semântica da página.
+Tipo: Estrutura/Semântica, define uma seção dentro de um documento, é usada para organizar o conteúdo em seções lógicas, ajudando na estruturação semântica da página.
 -- ----- ----- -----
 <article>
-Tipo: Estrutura/Semântica, representa um conteúdo independente ou autônomo, que faz sentido por si só fora do contexto da página.
-é usada em blogs para postagens, artigos de notícias, comentários do usuário, e outros conteúdos que podem ser distribuídos independentemente.
+Tipo: Estrutura/Semântica, representa um conteúdo independente ou autônomo,é usada em blogs para postagens,  comentários do usuário, e outros conteúdos que podem ser  independentemente.
 -- ----- ----- -----
 <aside>
 Tipo: Estrutura/Semântica define um conteúdo tangencial ao conteúdo principal, como barras laterais, chamadas à ação, ou inserções publicitárias.
@@ -143,7 +142,7 @@ Tipo: Estrutura/Semântica, define um conjunto de links de navegação é usada 
 Tipo: Metadados, specifica o conjunto de caracteres (encoding) usado no documento HTML. UTF-8 é um conjunto de caracteres universal que inclui praticamente todos os caracteres de todos os idiomas do mundo, o que o torna uma escolha segura e comum para a codificação de caracteres deve ser colocada dentro do elemento <head> do seu documento HTML. Ela ajuda a garantir que o documento seja corretamente interpretado e exibido pelo navegador, independentemente da plataforma ou localização do usuário.
 -- ----- ----- -----
 <dl>
-Tipo: Lista, A tag <dl> define uma lista de descrição em HTML, utilizada para agrupar um conjunto de termos e suas descrições correspondentes. Dentro de uma <dl>, você geralmente encontrará pares de tags <dt> (termo de descrição) e <dd> (descrição do termo).
+Tipo: Lista, define uma lista de descrição em HTML, utilizada para agrupar um conjunto de termos e suas descrições correspondentes. Dentro de uma <dl>, você geralmente encontrará pares de tags <dt> (termo de descrição) e <dd> (descrição do termo).
 -- ----- ----- -----
 <em>
 
