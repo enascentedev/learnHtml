@@ -2,6 +2,9 @@
 	<head>
 		<title>Model</title>
 		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 	</head>
 
 	<body class="h-screen flex flex-col">
@@ -116,21 +119,19 @@
 						</li>
 					</ul>
 				</nav>
-				<section>
-					<div class="flex items-center justify-between">
-						<div class="flex">
-							<h2>Mostrando:</h2>
-							<p><strong>342086</strong> ofertas</p>
-							<p><strong>952006</strong> produtos</p>
-							<p><strong>611</strong> marcas</p>
-							<p><strong>260</strong> lojas</p>
-						</div>
+				<section class="py-5">
+					<ul class="flex items-center justify-between">
+						<li>Mostrando:</li>
+						<li><strong>342086</strong> ofertas</li>
+						<li><strong>952006</strong> produtos</li>
+						<li><strong>611</strong> marcas</li>
+						<li><strong>260</strong> lojas</li>
 
-						<div class="flex items-center">
-							<h3>Categoria de Produtos:</h3>
-							<p>Automóveis e Veículos</p>
-						</div>
-					</div>
+						<ul class="flex items-center pr-5">
+							<li>Categoria de Produtos:</li>
+							<li>Automóveis e Veículos</li>
+						</ul>
+					</ul>
 				</section>
 				<section>
 					<div class="flex items-center justify-between">
@@ -139,7 +140,7 @@
 							<p>Produtos Disponíveis</p>
 						</div>
 
-						<ul class="flex gap-5">
+						<ul class="flex gap-5 pr-5">
 							<li class="flex items-center">
 								<a href="#">Produtos</a>
 							</li>
@@ -161,35 +162,40 @@
 						</ul>
 					</div>
 				</section>
-				<table class="min-w-full">
+				<table class="min-w-full mt-5">
 					<thead class="bg-gray-50">
 						<tr>
-							<th class="w-1/12 px-6 py-1 text-left text-xs uppercase">
+							<th class="w-1/12 px-1 py-1 text-left text-xs uppercase">
 								Marca
 							</th>
-							<th class="w-10/12 px-6 py-1 text-left text-xs uppercase">
+							<th class="w-10/12 px-1 py-1 text-left text-xs uppercase">
 								Produto
 							</th>
-							<th class="w-1/12 px-6 py-1 text-left text-xs uppercase">
+							<th class="w-1/12 px-1 py-1 text-left text-xs uppercase">
 								Lojas
 							</th>
-							<th class="w-1/12 px-6 py-1 text-left text-xs uppercase">
+							<th class="w-1/12 px-1 py-1 text-left text-xs uppercase">
 								Mais Barato
 							</th>
-							<th class="w-1/12 px-6 py-1"></th>
+							<th class="w-1/12 px-1 py-1"></th>
 						</tr>
 					</thead>
 					<tbody class="bg-white divide-y divide-gray-200">
 						<!-- Linhas de dados aqui -->
 						<tr>
-							<td class="px-6 py-4 text-sm text-gray-500">Pirelli</td>
-							<td class="px-6 py-4 text-sm text-gray-500">
+							<td class="px-1 py-4 text-sm text-gray-500">Pirelli</td>
+							<td class="px-1 py-4 text-sm text-gray-500">
 								Tire Pirelli Scorpion All Terrain Plus 275/55 R20 113T All
 								Season All Terrain Plus 275/55 R20 113T
+								<i class="fas fa-star pl-72"></i>
+								<i class="fas fa-image"></i>
 							</td>
-							<td class="px-6 py-4 text-sm text-gray-500">2 lojas</td>
-							<td class="px-6 py-4 text-sm text-gray-500">R$ 8,54</td>
-							<td class="px-6 py-4 text-sm text-gray-500">R$ 8,54</td>
+
+							<td class="px-1 py-4 text-sm text-gray-500">2 lojas</td>
+							<td class="px-1 py-4 text-sm text-gray-500">R$ 8,54</td>
+							<td class="px-1 py-4 text-sm text-gray-500">
+								<i class="fas fa-cog icone-produto px-5"></i>
+							</td>
 						</tr>
 					</tbody>
 				</table>
