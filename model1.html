@@ -5,7 +5,7 @@
 	</head>
 
 	<body class="h-screen flex flex-col">
-		<header class="flex p-10 items-center bg-red-500 h-11">
+		<header class="flex p-10 items-center bg-white h-11">
 			<h1>
 				<img
 					src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ZDF_logo%21_Logo_2021.svg/768px-ZDF_logo%21_Logo_2021.svg.png?20211204213142"
@@ -43,9 +43,9 @@
 		</header>
 
 		<main class="flex flex-1 justify-center items-center bg-gray-500">
-			<aside class="w-1/4 flex flex-col gap-10 p-10 bg-blue-500">
-				<div class="w-full p-10 bg-orange-500">
-					<h3 class="text-xl">Titulo do Filtro</h3>
+			<aside class="w-1/6 flex flex-col gap-10 p-5 bg-gray-400 h-full">
+				<div class="w-full p-5 bg-white">
+					<h3 class="text-xl">Filtro 1</h3>
 					<ul>
 						<li>
 							<label>
@@ -55,32 +55,148 @@
 						</li>
 						<li>
 							<input type="checkbox" id="campo-outro" />
-							<label for="campo-outro"> selecione </label>
+							<label for="campo-outro"> Item para selecao </label>
 						</li>
 					</ul>
 				</div>
 
-				<div class="w-full p-10 bg-orange-500">
-					<h3 class="text-xl">Filtro</h3>
+				<div class="w-full p-5 bg-white">
+					<h3 class="text-xl">Filtro 2</h3>
 					<ul>
 						<li>
 							<label>
-								<input type="checkbox" />
-								Selecione o input
+								<input type="radio" id="item 1" />
+								Item para selecao 1
 							</label>
 						</li>
 						<li>
-							<input type="checkbox" id="campo-feliz" />
-							<label for="campo-feliz"> Seja Feliz </label>
+							<label>
+								<input type="radio" id="item 2" />
+								Item para selecao 2
+							</label>
+						</li>
+					</ul>
+				</div>
+				<div class="w-full p-5 bg-white">
+					<h3 class="text-xl">Filtro 3</h3>
+					<ul>
+						<li>
+							<label>
+								<input
+									type="text"
+									id="item 3"
+									class="w-full"
+									placeholder="pesquisar" />
+							</label>
 						</li>
 					</ul>
 				</div>
 			</aside>
 
-			<section class="w-3/4 bg-amber-500">#section</section>
+			<section class="w-5/6 bg-gray-400 h-full">
+				<nav class="py-3 bg">
+					<ul class="flex gap-20">
+						<li class="flex items-center">
+							<a href="#" class="text-gray-900 hover:text-blue-800">Produtos</a>
+						</li>
+						<li class="flex items-center">
+							<a href="#" class="text-gray-900 hover:text-blue-800">Design</a>
+						</li>
+						<li class="flex items-center">
+							<a href="#" class="text-gray-900 hover:text-blue-800">Edição</a>
+						</li>
+						<li class="flex items-center">
+							<a href="#" class="text-gray-900 hover:text-blue-800">Edição</a>
+						</li>
+						<li class="flex items-center">
+							<a href="#" class="text-gray-900 hover:text-blue-800">Edição</a>
+						</li>
+						<li class="flex items-center">
+							<a href="#" class="text-gray-900 hover:text-blue-800">Edição</a>
+						</li>
+					</ul>
+				</nav>
+				<section>
+					<div class="flex items-center justify-between">
+						<div class="flex">
+							<h2>Mostrando:</h2>
+							<p><strong>342086</strong> ofertas</p>
+							<p><strong>952006</strong> produtos</p>
+							<p><strong>611</strong> marcas</p>
+							<p><strong>260</strong> lojas</p>
+						</div>
+
+						<div class="flex items-center">
+							<h3>Categoria de Produtos:</h3>
+							<p>Automóveis e Veículos</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="flex items-center justify-between">
+						<div class="flex">
+							<h2>Filtros selcionados:</h2>
+							<p>Produtos Disponíveis</p>
+						</div>
+
+						<ul class="flex gap-5">
+							<li class="flex items-center">
+								<a href="#">Produtos</a>
+							</li>
+							<li class="flex items-center">
+								<a href="#">Design</a>
+							</li>
+							<li class="flex items-center">
+								<a href="#">Edição</a>
+							</li>
+							<li class="flex items-center">
+								<a href="#">Edição</a>
+							</li>
+							<li class="flex items-center">
+								<a href="#">Edição</a>
+							</li>
+							<li class="flex items-center">
+								<a href="#">Edição</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<table class="min-w-full">
+					<thead class="bg-gray-50">
+						<tr>
+							<th class="w-1/12 px-6 py-1 text-left text-xs uppercase">
+								Marca
+							</th>
+							<th class="w-10/12 px-6 py-1 text-left text-xs uppercase">
+								Produto
+							</th>
+							<th class="w-1/12 px-6 py-1 text-left text-xs uppercase">
+								Lojas
+							</th>
+							<th class="w-1/12 px-6 py-1 text-left text-xs uppercase">
+								Mais Barato
+							</th>
+							<th class="w-1/12 px-6 py-1"></th>
+						</tr>
+					</thead>
+					<tbody class="bg-white divide-y divide-gray-200">
+						<!-- Linhas de dados aqui -->
+						<tr>
+							<td class="px-6 py-4 text-sm text-gray-500">Pirelli</td>
+							<td class="px-6 py-4 text-sm text-gray-500">
+								Tire Pirelli Scorpion All Terrain Plus 275/55 R20 113T All
+								Season All Terrain Plus 275/55 R20 113T
+							</td>
+							<td class="px-6 py-4 text-sm text-gray-500">2 lojas</td>
+							<td class="px-6 py-4 text-sm text-gray-500">R$ 8,54</td>
+							<td class="px-6 py-4 text-sm text-gray-500">R$ 8,54</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
 		</main>
 
-		<footer class="h-40 grid grid-cols-3 justify-items-center bg-green-500">
+		<footer class="h-40 grid grid-cols-3 justify-items-center bg-gray-200">
 			<ul class="justify-self-start px-10">
 				<li><a href="#">item</a></li>
 				<li><a href="#">item</a></li>

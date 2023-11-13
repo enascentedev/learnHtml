@@ -4,244 +4,125 @@ Estudos: HTML
 Author: Emanuel
 
 ## ----- ----- -----
-
-
+-- ----- ----- -----
 <!DOCTYPE>
-
-Tipo: Declaração, o que é: Define o tipo de documento e a versão do HTML,Onde é usada: No início do documento HTML.
-
-Onde é usada: No início do documento HTML.
+Declaração, define o tipo de documento e a versão do HTML, é usada: No início do documento HTML.
 -- ----- ----- -----
 <html>
-
-
-Tipo: Estrutura
-O que é: Define a raiz de um documento HTML.
-Onde é usada: Para encapsular todos os elementos HTML na página.
+Estrutura, define a raiz de um documento HTML, é usada: Para encapsular todos os elementos HTML na página.
 -- ----- ----- -----
 <head>
-
-
-Tipo: Estrutura
-O que é: Contém metadados/informações sobre o documento.
-Onde é usada: No início do documento HTML, antes do corpo.
+Estrutura, contém metadados/informações sobre o documento, é usada: No início do documento HTML, antes do corpo.
 -- ----- ----- -----
 <title>
-
-Tipo: Metadados
-O que é: Define o título do documento.
-Onde é usada: Dentro do elemento <head>.
+Metadados, define o título do documento, é usada: Dentro do elemento <head>.
 -- ----- ----- -----
 <body>
-
-Tipo: Estrutura
-O que é: Define o corpo do documento.
-Onde é usada: Para encapsular o conteúdo principal do documento.
+Estrutura, define o corpo do documento, é usada: Para encapsular o conteúdo principal do documento.
 -- ----- ----- -----
-<h1> a <h6>
-
-Tipo: Texto
-O que é: Define cabeçalhos de seis níveis.
-Onde é usada: Para estruturar e dar hierarquia ao conteúdo textual.
--- ----- ----- -----
-
 <h1>
-
-Tipo: Texto (Cabeçalho)
-O que é: Define o cabeçalho de nível mais alto e mais importante na página.
-Onde é usada: Geralmente usada para o título principal da página ou de seções importantes. É crucial para a SEO (Search Engine Optimization), pois os motores de busca dão maior importância a este cabeçalho para entender o conteúdo da página.
+Texto (Cabeçalho), define o cabeçalho de nível mais alto e mais importante na página, é usada: Geralmente para o título principal da página ou de seções importantes. É crucial para a SEO.
 -- ----- ----- -----
 <h2>
-
-Tipo: Texto (Cabeçalho)
-O que é: Usado para cabeçalhos de nível secundário.
-Onde é usada: Para títulos de subseções dentro de uma seção <h1>. Ajuda na organização do conteúdo e na navegação, tanto para usuários quanto para motores de busca.
+Texto (Cabeçalho), usado para cabeçalhos de nível secundário, é usada: Para títulos de subseções dentro de uma seção <h1>
 -- ----- ----- -----
 <h3>
-
-Tipo: Texto (Cabeçalho)
-O que é: Cabeçalho de terceiro nível, menos proeminente que <h2>.
-Onde é usada: Para subdividir ainda mais as seções marcadas com <h2>, fornecendo uma hierarquia clara e ordenada do conteúdo.
+Texto (Cabeçalho), cabeçalho de terceiro nível, menos proeminente que <h2>, é usada: Para subdividir ainda mais as seções marcadas com <h2>.
 -- ----- ----- -----
 <h4>, <h5>, <h6>
-
-Tipo: Texto (Cabeçalho)
-O que é: Estes são cabeçalhos de níveis inferiores, com cada um sendo progressivamente menos importante e de menor tamanho que o anterior.
-Onde são usados: Estas tags são usadas para uma subdivisão ainda mais detalhada do conteúdo. Embora menos comuns, são úteis para artigos longos ou documentos com muitas subseções, ajudando a manter a estrutura e a clareza.
+Texto (Cabeçalho), cabeçalhos de níveis inferiores, cada um progressivamente menos importante.
 -- ----- ----- -----
 <p>
-
-Tipo: Texto
-O que é: Define um parágrafo.
-Onde é usada: Para organizar o texto em blocos.
+Texto, define um parágrafo, é usada: Para organizar o texto em blocos.
 -- ----- ----- -----
 <a>
-
-Tipo: Hiperlink
-O que é: Define um hiperlink.
-Onde é usada: Para linkar para outras páginas ou recursos.
+Hiperlink, define um hiperlink, é usada: Para linkar para outras páginas ou recursos.
 -- ----- ----- -----
 <img>
-
-Tipo: Imagem
-O que é: Incorpora uma imagem.
-Onde é usada: Para adicionar imagens ao documento.
-
+Imagem, incorpora uma imagem, é usada: Para adicionar imagens ao documento.
 -- ----- ----- -----
 <figure>
-
-Tipo: Imagem e Texto
-O que é: Representa conteúdo autônomo, como imagens, ilustrações, diagramas, trechos de código, etc.
-Onde é usada: Quando se deseja agrupar uma mídia com uma legenda (<figcaption>), separando-a do fluxo principal do texto, mas mantendo a relação com o conteúdo próximo.
+Quando se deseja agrupar uma mídia com uma legenda (<figcaption>), separando-a do fluxo principal do texto, mas mantendo a relação com o conteúdo próximo.
 -- ----- ----- -----
 <ul>
-
-Tipo: Lista
-O que é: Define listas não ordenadas, ordenadas e itens de lista.
-Onde é usada: Para criar listas de itens.
-
-#rever lista ordenada com nuéros
+Tipo Lista, define listas não ordenadas, ordenadas e itens de lista.
 -- ----- ----- -----
 <ol>
-
-Tipo: Lista
-O que é: Define uma lista ordenada.
-Onde é usada: Para criar uma lista de itens em uma sequência específica, onde a ordem dos itens é importante. Os itens da lista são marcados com números por padrão.
+Os itens da lista são marcados com números por padrão.
 -- ----- ----- -----
 <li>
 
-Tipo: Lista
-O que é: Define um item de lista, usado dentro de listas ordenadas (<ol>) ou não ordenadas (<ul>).
-Onde é usada: Dentro de elementos <ul> ou <ol>. Cada <li> representa um único item da lista. Pode ser utilizado para criar listas de itens, onde cada item é marcado com um ponto (em listas não ordenadas) ou um número/letra (em listas ordenadas, dependendo do tipo de numeração especificada).
+Tipo Lista, define um item de lista, usado dentro de listas ordenadas (<ol>) ou não ordenadas (<ul>) é usada: Dentro de elementos <ul> ou <ol>. 
 -- ----- ----- -----
 
 <div>
 
-Tipo: Agrupamento7
-O que é: Define uma divisão ou uma seção.
-Onde é usada: Para agrupar elementos e aplicar estilos CSS ou scripts.
+Tipo: Agrupamento, define uma divisão ou uma seção é usada para agrupar elementos e aplicar estilos CSS ou scripts.
 -- ----- ----- -----
 <address>
-
-Tipo: Contato/Semântica
-O que é: Utilizada para fornecer informações de contato para o autor/proprietário de um documento ou artigo.
-Onde é usada: Geralmente localizada dentro do rodapé (<footer>) de uma página ou artigo, mas pode ser usada em qualquer local onde as informações de contato sejam relevantes. A tag <address> pode incluir informações como endereço físico, URL, endereço de e-mail, números de telefone ou qualquer outra forma de contato.
+Tipo: Contato/Semântica, é utilizada para fornecer informações de contato para o autor/proprietário de um documento ou artigo.
+ é usada (<footer>) de uma página ou artigo, mas pode ser usada em qualquer local onde as informações de contato sejam relevantes. A tag <address> pode incluir informações como endereço físico, URL, endereço de e-mail, números de telefone ou qualquer outra forma de contato.
 -- ----- ----- -----
 <span>
 
-Tipo: Texto/Agrupamento
-O que é: Define um grupo de texto inline.
-Onde é usada: Para estilizar partes do texto ou agrupar elementos inline para estilização.
-
-
+Tipo: Texto/Agrupamento, define um grupo de texto inline é usada para estilizar partes do texto ou agrupar elementos inline para estilização.
 -- ----- ----- -----
 <section>
-
-Tipo: Estrutura/Semântica
-O que é: Define uma seção dentro de um documento, tipicamente com um tema ou tópico específico.
-Onde é usada: Para organizar o conteúdo em seções lógicas, ajudando na estruturação semântica da página.
+Tipo: Estrutura/Semântica, define uma seção dentro de um documento, tipicamente com um tema ou tópico específico. é usada para organizar o conteúdo em seções lógicas, ajudando na estruturação semântica da página.
 -- ----- ----- -----
 <article>
-
-Tipo: Estrutura/Semântica
-O que é: Representa um conteúdo independente ou autônomo, que faz sentido por si só fora do contexto da página.
-Onde é usada: Em blogs para postagens, artigos de notícias, comentários do usuário, e outros conteúdos que podem ser distribuídos independentemente.
+Tipo: Estrutura/Semântica, representa um conteúdo independente ou autônomo, que faz sentido por si só fora do contexto da página.
+é usada em blogs para postagens, artigos de notícias, comentários do usuário, e outros conteúdos que podem ser distribuídos independentemente.
 -- ----- ----- -----
 <aside>
-
-Tipo: Estrutura/Semântica
-O que é: Define um conteúdo tangencial ao conteúdo principal, como barras laterais, chamadas à ação, ou inserções publicitárias.
-Onde é usada: Tipicamente para conteúdo relacionado, mas não parte essencial do conteúdo principal.
+Tipo: Estrutura/Semântica define um conteúdo tangencial ao conteúdo principal, como barras laterais, chamadas à ação, ou inserções publicitárias.
 -- ----- ----- -----
 <form>
 
-Tipo: Formulário
-O que é: Define um formulário HTML para entrada do usuário.
-Onde é usada: Para coletar dados do usuário.
+Tipo: Formulário define um formulário HTML para entrada do usuário.
 -- ----- ----- -----
 <input>
 
-Tipo: Entrada de dados
-O que é: Define um campo de entrada.
-Onde é usada: Dentro de um formulário para receber dados do usuário.
-#colocar todos os types de input
+Tipo: Entrada de dados define um campo de entrada.
 -- ----- ----- -----
 <button>
-
 Tipo: Botão
-O que é: Define um botão clicável.
-Onde é usada: Em formulários ou para acionar eventos de clique
-
+Define um botão clicável.
 -- ----- ----- -----
 <table>
-
-Tipo: Tabela
-O que é: Define uma tabela.
-Onde é usada: Usada para criar uma estrutura de tabela, que pode conter linhas, células de cabeçalho, células de dados, entre outros elementos relacionados.
+Tipo: Tabela, define uma tabela usada para criar uma estrutura de tabela, que pode conter linhas, células de cabeçalho, células de dados, entre outros elementos relacionados.
 -- ----- ----- -----
 <footer>
-
-Tipo: Estrutura/Semântica
-O que é: Define o rodapé de uma página ou seção, tipicamente contendo informações como contato, direitos autorais e links para documentos legais.
-Onde é usada: No final das seções <body>, <article>, ou <section>.
+Tipo: Estrutura/Semântica, define o rodapé de uma página ou seção, tipicamente contendo informações como contato, direitos autorais e links para documentos legais é usada no final das seções <body>, <article>, ou <section>.
 -- ----- ----- -----
 <tr>
-
-Tipo: Tabela
-O que é: Define uma linha em uma tabela.
-Onde é usada: Dentro de uma <table>, para criar linhas horizontais que contêm células de dados (<td>) ou células de cabeçalho (<th>).
-
+Tipo: Tabela , define uma linha em uma tabela, é usada dentro de uma <table>, para criar linhas horizontais que contêm células de dados (<td>) ou células de cabeçalho (<th>).
 -- ----- ----- -----
 <th>
-
-Tipo: Tabela
-O que é: Define uma célula de cabeçalho em uma tabela.
-Onde é usada: Dentro de uma linha (<tr>), para indicar cabeçalhos de colunas ou linhas, geralmente em negrito e alinhado ao centro.
+Tipo: Tabela, define uma célula de cabeçalho em uma tabela, é usada dentro de uma linha (<tr>), para indicar cabeçalhos de colunas ou linhas, geralmente em negrito e alinhado ao centro.
 -- ----- ----- -----
 <td>
-
-Tipo: Tabela
-O que é: Define uma célula de dados em uma tabela.
-Onde é usada: Dentro de uma linha (<tr>), para inserir dados ou conteúdo na tabela.
+Tipo: Tabela, define uma célula de dados em uma tabela, é usada dentro de uma linha (<tr>), para inserir dados ou conteúdo na tabela.
 -- ----- ----- -----
 <thead>
-
-Tipo: Tabela
-O que é: Representa o cabeçalho de uma tabela, contendo as células de cabeçalho.
-Onde é usada: No início de uma <table>, antes de <tbody> e <tfoot>. Agrupa as células de cabeçalho (<th>) da tabela, muitas vezes usada para títulos de colunas.
+Tipo: Tabela, representa o cabeçalho de uma tabela, contendo as células de cabeçalho é usada no início de uma <table>, antes de <tbody> e <tfoot>. Agrupa as células de cabeçalho (<th>) da tabela, muitas vezes usada para títulos de colunas.
 -- ----- ----- -----
 <tbody>
-
-Tipo: Tabela
-O que é: Define o corpo principal de uma tabela, agrupando as linhas de conteúdo.
-Onde é usada: Dentro de uma <table>, após <thead> e/ou <tfoot>, se estiverem presentes. Usada para agrupar as linhas de dados da tabela para fins de estilo e manipulação via scripts.
+Tipo: Tabela, define o corpo principal de uma tabela, agrupando as linhas de conteúdo é usada dentro de uma <table>, após <thead> e/ou <tfoot>, se estiverem presentes. Usada para agrupar as linhas de dados da tabela para fins de estilo e manipulação via scripts.
 -- ----- ----- -----
 <tfoot>
-
-Tipo: Tabela
-O que é: Define o rodapé de uma tabela, agrupando as últimas linhas com informações de resumo ou totalização.
-Onde é usada: No final de uma <table>, depois de <tbody> e/ou <thead>. Utilizada para sumarizar ou concluir os dados apresentados na tabela.
-
+Tipo: Tabela, define o rodapé de uma tabela, agrupando as últimas linhas com informações de resumo ou totalização é usada no final de uma <table>, depois de <tbody> e/ou <thead>. Utilizada para sumarizar ou concluir os dados apresentados na tabela.
+-- ----- ----- -----
 <iframe>
-
-Tipo: Incorporação
-O que é: Define um quadro embutido, que é essencialmente uma janela para outra página da web.
-Onde é usada: Para incorporar outra página HTML, vídeo, mapa ou outro conteúdo interativo dentro de uma página da web. Muito usada para incorporar conteúdo como vídeos do YouTube, mapas do Google Maps, etc.
-é incrivelmente útil para adicionar conteúdo de outras fontes ao seu site sem redirecionar o usuário ou exigir que ele carregue uma nova página. Além disso, permite uma grande flexibilidade, pois você pode controlar o tamanho do quadro e outras propriedades através de atributos como width, height, e frameborder, ou ainda mais detalhadamente com CSS.
+Tipo: Incorporação define um quadro embutido, que é essencialmente uma janela para outra página da web é usada para incorporar outra página HTML, vídeo, mapa ou outro conteúdo interativo dentro de uma página da web. Muito usada para incorporar conteúdo como vídeos do YouTube, mapas do Google Maps, etc.
 -- ----- ----- -----
 <main>
 
-Tipo: Estrutura/Semântica
-O que é: Representa o conteúdo principal de um documento, exclusivo ao documento.
-Onde é usada: Para destacar o conteúdo central da página, facilitando a acessibilidade.
+Tipo: Estrutura/Semântica, representa o conteúdo principal de um documento, exclusivo ao documento, é usada para destacar o conteúdo central da página, facilitando a acessibilidade.
 -- ----- ----- -----
 <header>
-Tipo: Estrutura/Semântica
-O que é: A tag <header> é utilizada para definir o cabeçalho de uma página ou de uma seção específica dentro da página.
-Onde é usada: Geralmente localizada no topo da página ou seção, a <header> pode conter elementos como títulos, logotipos, links de navegação, formulários de pesquisa, e outras informações introdutórias ou navegacionais.
-A tag <header> é uma parte crucial da "semântica" em HTML5, que visa a criar um significado claro e uma estrutura lógica nas páginas web. Isso não só ajuda os mecanismos de busca a entenderem melhor o conteúdo e a estrutura do seu site (melhorando o SEO), mas também melhora a acessibilidade para usuários que dependem de tecnologias assistivas, como leitores de tela.
+Tipo: Estrutura/Semântica, é utilizada para definir o cabeçalho de uma página ou de uma seção específica dentro da página é usada geralmente localizada no topo da página ou seção, a <header> pode conter elementos como títulos, logotipos, links de navegação, formulários de pesquisa, e outras informações introdutórias ou navegacionais.
 
-A semântica correta em HTML é fundamental para criar páginas web mais compreensíveis e acessíveis, tanto para usuários quanto para mecanismos de busca.
 -- ----- ----- -----
 Elementos block:
 
@@ -256,25 +137,16 @@ Eles não criam uma nova "caixa" ao redor de si; em vez disso, se encaixam no fl
 Exemplos comuns incluem <span>, <a>, <strong>, e <em>.
 -- ----- ----- -----
 <nav>
-
-Tipo: Estrutura/Semântica
-O que é: Define um conjunto de links de navegação.
-Onde é usada: Para blocos de navegação principal, como menus de cabeçalho ou rodapé.
+Tipo: Estrutura/Semântica, define um conjunto de links de navegação é usada para blocos de navegação principal, como menus de cabeçalho ou rodapé.
 -- ----- ----- -----
 <meta charset="UTF-8">
-Tipo: Metadados
-O que é: Esta tag especifica o conjunto de caracteres (encoding) usado no documento HTML. UTF-8 é um conjunto de caracteres universal que inclui praticamente todos os caracteres de todos os idiomas do mundo, o que o torna uma escolha segura e comum para a codificação de caracteres.
-Onde é usada: Deve ser colocada dentro do elemento <head> do seu documento HTML. Ela ajuda a garantir que o documento seja corretamente interpretado e exibido pelo navegador, independentemente da plataforma ou localização do usuário.
+Tipo: Metadados, specifica o conjunto de caracteres (encoding) usado no documento HTML. UTF-8 é um conjunto de caracteres universal que inclui praticamente todos os caracteres de todos os idiomas do mundo, o que o torna uma escolha segura e comum para a codificação de caracteres deve ser colocada dentro do elemento <head> do seu documento HTML. Ela ajuda a garantir que o documento seja corretamente interpretado e exibido pelo navegador, independentemente da plataforma ou localização do usuário.
 -- ----- ----- -----
 <dl>
-
-Tipo: Lista
-O que é: A tag <dl> define uma lista de descrição em HTML.
-Onde é usada: Utilizada para agrupar um conjunto de termos e suas descrições correspondentes. Dentro de uma <dl>, você geralmente encontrará pares de tags <dt> (termo de descrição) e <dd> (descrição do termo).
+Tipo: Lista, A tag <dl> define uma lista de descrição em HTML, utilizada para agrupar um conjunto de termos e suas descrições correspondentes. Dentro de uma <dl>, você geralmente encontrará pares de tags <dt> (termo de descrição) e <dd> (descrição do termo).
 -- ----- ----- -----
 <em>
 
 Tipo: Texto
-O que é: A tag <em> é usada para indicar ênfase no texto.
-Onde é usada: Pode ser usada em qualquer parte do corpo do texto onde se deseja enfatizar certas palavras ou frases. O conteúdo dentro de <em> geralmente é exibido em itálico pelos navegadores, mas o principal objetivo é semântico, destacando a importância ou a ênfase do texto, em vez de apenas estilizá-lo.
--- ----- ----- ----- ## rever resumir cada topico, para uma linha
+ é usada para indicar ênfase no texto pode ser usada em qualquer parte do corpo do texto onde se deseja enfatizar certas palavras ou frases. O conteúdo dentro de <em> geralmente é exibido em itálico pelos navegadores, mas o principal objetivo é semântico, destacando a importância ou a ênfase do texto, em vez de apenas estilizá-lo.
+-- ----- ----- ----- 
