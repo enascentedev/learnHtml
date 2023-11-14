@@ -149,3 +149,4 @@ Tipo: Lista, define uma lista de descrição em HTML, utilizada para agrupar um 
 Tipo: Texto
  é usada para indicar ênfase no texto pode ser usada em qualquer parte do corpo do texto onde se deseja enfatizar certas palavras ou frases. O conteúdo dentro de <em> geralmente é exibido em itálico pelos navegadores, mas o principal objetivo é semântico, destacando a importância ou a ênfase do texto, em vez de apenas estilizá-lo.
 -- ----- ----- ----- 
+summary, details

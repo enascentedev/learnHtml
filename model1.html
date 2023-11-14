@@ -14,9 +14,9 @@
 		<header class="flex p-10 items-center bg-white h-11">
 			<h1>
 				<img
-					alt="logotipo"
 					src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ZDF_logo%21_Logo_2021.svg/768px-ZDF_logo%21_Logo_2021.svg.png?20211204213142"
-					class="w-20 h-10 mr-4" />
+					class="w-20 h-10 mr-4"
+					alt="logotipo" />
 			</h1>
 			<nav class="flex-1 justify-start px-10">
 				<ul class="flex gap-5">
@@ -25,7 +25,8 @@
 						<i class="fas fa-sort-down px-2"></i>
 					</li>
 					<li>
-						<a href="#" class="px-4 py-2 rounded-lg bg-white">Produto</a>
+						<!-- colocar endereços corretos -->
+						<a href="" class="px-4 py-2 rounded-lg bg-white">Produto</a>
 					</li>
 					<li>
 						<a href="#" class="px-4 py-2 rounded-lg bg-white">Mercado</a>
@@ -38,13 +39,20 @@
 			<nav class="flex justify-end">
 				<ul class="flex gap-5">
 					<li>
-						<a href="#" class="px-4 py-2 rounded-lg bg-white">pagina 1</a>
+						<a href="#" class="px-4 py-2 rounded-lg bg-white">
+							Adidas
+							<i class="fas fa-align-left"></i>
+						</a>
 					</li>
 					<li>
-						<a href="#" class="px-4 py-2 rounded-lg bg-white">pagina 2</a>
+						<a href="#" class="px-4 py-2 rounded-lg bg-white">
+							<i class="fas fa-user"></i>
+						</a>
 					</li>
 					<li>
-						<a href="#" class="px-4 py-2 rounded-lg bg-white">pagina 2</a>
+						<a href="#" class="px-4 py-2 rounded-lg bg-white">
+							<i class="fas fa-bell"></i>
+						</a>
 					</li>
 				</ul>
 			</nav>
@@ -212,29 +220,45 @@
 			</section>
 		</main>
 
-		<footer class="h-40 grid grid-cols-3 justify-items-center bg-gray-200">
-			<ul class="justify-self-start px-10">
-				<li><a href="#">Faq</a></li>
-				<li><a href="#">sobre</a></li>
-				<li><a href="#">sistema</a></li>
-				<li><a href="#">item</a></li>
-				<li><a href="#">item</a></li>
+		<footer class="h-48 grid grid-cols-3 justify-items-center bg-gray-200">
+			<ul class="justify-self-start px-10 py-2 text">
+				<!--  -->
+				<li><a href="#">Sobre </a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Suporte</a></li>
+				<li><a href="#">Política de Privacidade</a></li>
+				<li><a href="#">Termos de Uso</a></li>
 			</ul>
-			<!-- mudar endereço do action, id for igual a id do text area  e input com nome  -->
-			<form action="/enviar" method="post">
-				<label for="mensagem">Alguma sugestão e/ou dúvida?</label>
+			<!-- mudar endereço do action, id for igual a id do text area  e input com nome comentários em inglês -->
+			<form method="post" action="/suporte" class="py-2">
+				<label for="suggestion">Alguma sugestão e/ou dúvida?</label>
 				<textarea
-					id="mensagem"
-					name=""
+					name="message"
+					id="suggestion"
+					class="p-2 rounded-lg"
 					rows="4"
 					cols="50"
 					placeholder="Digite sua mensagem"></textarea>
-				<button type="submit">Enviar</button>
+				<button type="submit" accesskey="13" class="grid justify-self-start">
+					Enviar
+				</button>
 			</form>
-			<address class="not-italic justify-self-end px-10">
-				endereço<br />
-				<a href="tel:+5133655243">(51) 33655243</a> |
-				<a href="mailto:contato@contato.com.br">contato@contato.com.br</a>
+			<address class="not-italic justify-self-end py-2 text-right">
+				<!-- #review - colocar tag small-->
+				<p class="text-sm pr-10">Versão 2023 / 46.1.316</p>
+				<img
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ZDF_logo%21_Logo_2021.svg/768px-ZDF_logo%21_Logo_2021.svg.png?20211204213142"
+					alt="logotipo"
+					class="w-14 h-8" />
+				<p class="text-sm pr-10">
+					Av. Dr. Nilo Peçanha, 1851 - Conjunto 301 - Bairro Três Figueiras -<br />
+					Porto Alegre, RS - Cep: 91330-000
+				</p>
+				<br />
+				<a href="tel:+5133655243" class="text-sm">(51) 33655243</a> |
+				<a href="mailto:contato@contato.com.br" class="text-sm pr-10"
+					>contato@contato.com.br</a
+				>
 			</address>
 		</footer>
 	</body>
