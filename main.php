@@ -1,5 +1,4 @@
 <main class="flex flex-1 justify-center items-center bg-gray-500 ">
-	<!-- filtros -->
 
 	<aside class="h-full w-1/6 flex flex-col gap-10 pl-10 pr-5 py-5 bg-gray-400 ">
 		<div class="w-full p-5 bg-white rounded-md">
@@ -7,35 +6,38 @@
 			<ul>
 				<li>
 					<label>
-						<input type="checkbox" />
+						<input type="checkbox" id="checkboxInput1" name="checkbox1" />
 						Manlec
 					</label>
 				</li>
 				<li>
-					<input type="checkbox" id="campo-outro" />
-					<label for="campo-outro"> Colombo </label>
+					<label>
+						<input type="checkbox" id="checkboxInput2" name="checkbox2" />
+						Colombo
+					</label>
 				</li>
 			</ul>
 		</div>
-		<!-- valores dos campos input trocar nomenclaturas -->
+
 		<div class="w-full p-5 bg-white rounded-md">
 			<h3 class="text-xl pb-2">Marcas</h3>
 			<ul>
 				<li>
 					<label>
-						<input type="radio" id="item 1" name="select1" />
+						<input type="radio" id="radioInput1" name="radio" />
 						Nike
 					</label>
 				</li>
 				<li>
 					<label>
-						<input type="radio" id="item 2" name="select2" />
+						<input type="radio" id="radioInput2" name="radio" />
 						Adidas
 					</label>
 				</li>
 			</ul>
 		</div>
-		<!-- colocar botão enviar filtro -->
+
+
 		<div class="w-full p-5 bg-white rounded-md">
 			<h3 class="text-xl pb-2">Palavra chave</h3>
 			<ul>
@@ -49,7 +51,7 @@
 		</div>
 	</aside>
 
-	<!-- evitar usar section dentyro de section -->
+
 	<section class="w-5/6 bg-gray-400 h-full pr-10">
 		<nav class="py-3 bg">
 			<ul class="flex gap-20">
@@ -87,7 +89,7 @@
 				</ul>
 			</ul>
 		</div>
-		<section>
+		<div>
 			<div class="flex items-center justify-between">
 				<div class="flex">
 					<h2>Filtros selcionados:</h2>
@@ -115,7 +117,7 @@
 					</li>
 				</ul>
 			</div>
-		</section>
+		</div>
 		<table class="min-w-full mt-5 rounded-md overflow-hidden">
 			<thead class="bg-gray-50 ">
 				<tr>
