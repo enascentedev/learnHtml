@@ -16,7 +16,7 @@
 
 <body class="h-screen flex flex-col">
 	<?php include 'header.php'; ?>
-	<main class="flex justify-center items-center bg-gray-300 p-5">
+	<main class="flex gap-5 justify-center p-5 items-center bg-gray-300 ">
 		<?php include 'aside.php'; ?>
 		<?php include 'main.php'; ?>
 	</main>

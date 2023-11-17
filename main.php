@@ -1,5 +1,5 @@
 <!-- falta definir endereços -->
-<section class="w-5/6  h-full flex flex-col gap-5 px-5">
+<section class="w-5/6 h-full flex flex-col gap-5">
 	<nav class="flex items-center">
 		<ul class="flex gap-10">
 			<li>
@@ -23,7 +23,7 @@
 		</ul>
 	</nav>
 	<div>
-		<ul class="flex items-center justify-between">
+		<ul class="flex justify-between items-center">
 			<li>Mostrando:</li>
 			<li><strong>342086</strong> ofertas</li>
 			<li><strong>952006</strong> produtos</li>
@@ -37,7 +37,7 @@
 		</ul>
 	</div>
 	<div>
-		<div class="flex items-center justify-between">
+		<div class="flex justify-between items-center">
 			<div class="flex">
 				<h2>Filtros selcionados:</h2>
 				<p>Produtos Disponíveis</p>
@@ -83,7 +83,7 @@
 				<th class="w-1/12 px-2 py-1"></th>
 			</tr>
 		</thead>
-		<tbody class="bg-white divide-y divide-gray-200 rounded-md">
+		<tbody class="rounded-md divide-y divide-gray-200 bg-white">
 
 			<tr>
 				<td class="px-2 py-4 text-sm text-gray-500">Pirelli</td>

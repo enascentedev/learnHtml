@@ -45,7 +45,7 @@
 				</label>
 			</li>
 		</ul>
-		<button class="py-1 px-2 my-1 rounded-md bg-gray-300">Filtrar</button>
+		<button class="px-2 py-1 my-1 rounded-md bg-gray-300">Filtrar</button>
 	</div>
 
 </aside>
