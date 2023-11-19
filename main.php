@@ -66,38 +66,34 @@
 		</div>
 	</div>
 	<table class="min-w-full mt-5 rounded-md overflow-hidden">
-    <thead class="bg-gray-50">
-        <tr>
-            <th class="w-1/12 px-2 py-1 text-left text-xs uppercase">Marca</th>
-            <th class="w-10/12 px-2 py-1 text-left text-xs uppercase">Produto</th>
-            <th class="w-1/12 px-2 py-1 text-left text-xs uppercase">Lojas</th>
-            <th class="w-1/12 px-2 py-1 text-left text-xs uppercase">Mais Barato</th>
-            <th class="w-1/12 px-2 py-1"></th>
-        </tr>
-    </thead>
-    <tbody class="rounded-md divide-y divide-gray-200 bg-white">
-		<tr class="p-5 text-sm text-gray-500 bg-blue-300">
-    <td >Tang</td>
-    <td >
-        Refresco em Pó Tang Uva 25g
-    </td>
-    <td class="">
-        <div class="flex items-center justify-end">
-            <i class="fas fa-store"></i> 
-						<i class="fas fa-star"></i> 
-            <span class="ml-2">3 lojas</span>
-        </div>
-    </td>
-    <td class="">
-        <div class="flex items-center justify-end">
-            <button class="bg-orange-500 text-white p-1 rounded">R$ 0,79</button>
-        </div>
-    </td>
-    <td class="">
-        <i class="fas fa-cog"></i>
-    </td>
-</tr>
-    </tbody>
-</table>
+		<thead class="bg-gray-50">
+			<tr>
+				<th class="w-1/12 px-2 py-1 text-left text-xs uppercase">Marca</th>
+				<th class="w-10/12 px-2 py-1 text-left text-xs uppercase">Produto</th>
+				<th class="w-1/12 px-2 py-1 text-left text-xs uppercase">Lojas</th>
+				<th class="w-1/12 px-2 py-1 text-left text-xs uppercase">Mais Barato</th>
+				<th class="w-1/12 px-2 py-1"></th>
+			</tr>
+		</thead>
+		<tbody class="rounded-md divide-y divide-gray-200 bg-white">
+			<tr class="items-center text-sm text-gray-500 bg-blue-300">
+				<td class="px-5">Tang</td>
+				<td class="items-center">
+					Refresco em Pó Tang Uva 25g
+					<div class="flex items-center justify-end gap-3">
+						<i class="fas fa-store"></i>
+						<i class="fas fa-star"></i>
+					</div>
+				</td>
+				<td class="">
+					<span class="ml-2">3 lojas</span>				
+				</td>
+				<td class="">	<button class="bg-orange-500 text-white p-1 rounded">R$ 0,79</button></td>
+				<td class="px-5">
+					<i class="fas fa-cog"></i>
+				</td>
+			</tr>
+		</tbody>
+	</table>
 
 </section>
