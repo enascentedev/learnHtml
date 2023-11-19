@@ -66,40 +66,38 @@
 		</div>
 	</div>
 	<table class="min-w-full mt-5 rounded-md overflow-hidden">
-		<thead class="bg-gray-50 ">
-			<tr>
-				<th class="w-1/12 px-2 py-1 text-left text-xs uppercase">
-					Marca
-				</th>
-				<th class="w-10/12 px-2 py-1 text-left text-xs uppercase">
-					Produto
-				</th>
-				<th class="w-1/12 px-2 py-1 text-left text-xs uppercase">
-					Lojas
-				</th>
-				<th class="w-1/12 px-2 py-1 text-left text-xs uppercase">
-					Mais Barato
-				</th>
-				<th class="w-1/12 px-2 py-1"></th>
-			</tr>
-		</thead>
-		<tbody class="rounded-md divide-y divide-gray-200 bg-white">
+    <thead class="bg-gray-50">
+        <tr>
+            <th class="w-1/12 px-2 py-1 text-left text-xs uppercase">Marca</th>
+            <th class="w-10/12 px-2 py-1 text-left text-xs uppercase">Produto</th>
+            <th class="w-1/12 px-2 py-1 text-left text-xs uppercase">Lojas</th>
+            <th class="w-1/12 px-2 py-1 text-left text-xs uppercase">Mais Barato</th>
+            <th class="w-1/12 px-2 py-1"></th>
+        </tr>
+    </thead>
+    <tbody class="rounded-md divide-y divide-gray-200 bg-white">
+		<tr class="p-5 text-sm text-gray-500 bg-blue-300">
+    <td >Tang</td>
+    <td >
+        Refresco em Pó Tang Uva 25g
+    </td>
+    <td class="">
+        <div class="flex items-center justify-end">
+            <i class="fas fa-store"></i> 
+						<i class="fas fa-star"></i> 
+            <span class="ml-2">3 lojas</span>
+        </div>
+    </td>
+    <td class="">
+        <div class="flex items-center justify-end">
+            <button class="bg-orange-500 text-white p-1 rounded">R$ 0,79</button>
+        </div>
+    </td>
+    <td class="">
+        <i class="fas fa-cog"></i>
+    </td>
+</tr>
+    </tbody>
+</table>
 
-			<tr>
-				<td class="px-2 py-4 text-sm text-gray-500">Pirelli</td>
-				<td class="px-1 py-4 text-sm text-gray-500">
-					Tire Pirelli Scorpion All Terrain Plus 275/55 R20 113T All
-					Season All Terrain Plus 275/55 R20 113T
-					<i class="fas fa-star pl-40"></i>
-					<i class="fas fa-image"></i>
-				</td>
-
-				<td class="px-1 py-4 text-sm text-gray-500">2 lojas</td>
-				<td class="px-1 py-4 text-sm text-gray-500">R$ 8,54</td>
-				<td class="px-1 py-4 text-sm text-gray-500">
-					<i class="fas fa-cog icone-produto px-5"></i>
-				</td>
-			</tr>
-		</tbody>
-	</table>
 </section>
