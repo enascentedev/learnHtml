@@ -2,7 +2,7 @@
 	<h1>
 		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ZDF_logo%21_Logo_2021.svg/768px-ZDF_logo%21_Logo_2021.svg.png?20211204213142" class="w-20 h-10" alt="Logotipo" />
 	</h1>
-	<nav class="flex-1 justify-start pl-10 ">
+	<nav class="flex-1 justify-start pl-10">
 		<ul class="flex gap-10">
 			<li>
 				<i class="fas fa-search"></i>
