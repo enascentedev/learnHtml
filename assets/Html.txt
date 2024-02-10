@@ -148,5 +148,37 @@ Tipo: Lista, define uma lista de descrição em HTML, utilizada para agrupar um 
 
 Tipo: Texto
  é usada para indicar ênfase no texto pode ser usada em qualquer parte do corpo do texto onde se deseja enfatizar certas palavras ou frases. O conteúdo dentro de <em> geralmente é exibido em itálico pelos navegadores, mas o principal objetivo é semântico, destacando a importância ou a ênfase do texto, em vez de apenas estilizá-lo.
--- ----- ----- ----- 
-summary, details
+-- ----- ----- -----
+<details>
+Tipo: Interativo, é usada para criar um widget que o usuário pode expandir ou contrair para mostrar ou esconder conteúdo. Útil para FAQs ou para esconder informações detalhadas que não são imediatamente necessárias.
+-- ----- ----- -----
+<summary>
+Tipo: Interativo, define um título visível para o conteúdo escondido dentro de <details>. Quando clicado, expande e revela o conteúdo associado.
+-- ----- ----- -----
+<strong>
+Tipo: Texto, é usada para dar ênfase forte ao texto, geralmente exibido em negrito pelos navegadores. Diferente de <em>, que indica ênfase, <strong> indica importância, seriedade ou urgência para o conteúdo.
+-- ----- ----- -----
+<blockquote>
+Tipo: Citação, define uma seção que é citada de outra fonte. Usada para destacar citações longas de outros conteúdos, normalmente é exibida com recuo em relação ao texto principal.
+-- ----- ----- -----
+<q>
+Tipo: Citação, define uma citação curta. Ao contrário de <blockquote>, que é usado para citações mais longas e destacadas, <q> é usado para citações curtas dentro do fluxo do texto e geralmente é exibido com aspas.
+-- ----- ----- -----
+<br>
+Tipo: Quebra de linha, insere uma quebra de linha simples. É usada para criar uma nova linha dentro de um parágrafo ou outro elemento, sem iniciar um novo parágrafo.
+-- ----- ----- -----
+<hr>
+Tipo: Quebra temática, insere uma linha horizontal de quebra temática no documento. É usada para separar conteúdo ou seções dentro de um documento, indicando uma mudança de tópico ou uma pausa.
+-- ----- ----- -----
+<label>
+Tipo: Formulário, define um rótulo para um elemento <input>. É usada para melhorar a acessibilidade, associando texto descritivo a controles de formulário específicos.
+-- ----- ----- -----
+<select>
+Tipo: Entrada de dados, define um campo de seleção que contém uma ou mais opções <option>. É usada para fornecer uma lista de opções da qual o usuário pode escolher.
+-- ----- ----- -----
+<option>
+Tipo: Entrada de dados, define uma opção dentro de um elemento <select>. Cada <option> representa uma escolha disponível dentro do campo de seleção.
+-- ----- ----- -----
+<textarea>
+Tipo: Entrada de dados, define uma área de texto de múltiplas linhas. É usada para entrada de texto longo pelo usuário, como comentários ou descrições.
+-- ----- ----- -----
