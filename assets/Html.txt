@@ -5,20 +5,81 @@ Author: Emanuel
 
 ## ----- ----- -----
 -- ----- ----- -----
+<a>
+Hiperlink, define um hiperlink, é usada: Para linkar para outras páginas ou recursos.
+-- ----- ----- -----
+<address>
+Tipo: Contato/Semântica, é utilizada para fornecer informações de contato para o autor/proprietário de um documento ou artigo.
+ é usada (<footer>) de uma página ou artigo, mas pode ser usada em qualquer local onde as informações de contato sejam relevantes. A tag <address> pode incluir informações como endereço físico, URL, endereço de e-mail, números de telefone ou qualquer outra forma de contato.
+-- ----- ----- -----
+<area>
+Tipo: Contato/Semântica, é utilizada em uma região hot-spot em uma imagem, e, opcionalmente, associa-lo com um link de hipertexto (en-US).
+ é usada somente dentro de um <map> elemento.
+-- ----- ----- -----
 <!DOCTYPE>
 Declaração, define o tipo de documento e a versão do HTML, é usada: No início do documento HTML.
 -- ----- ----- -----
-<html>
-Estrutura, define a raiz de um documento HTML, é usada: Para encapsular todos os elementos HTML na página.
+<article>
+Tipo: Estrutura/Semântica, representa um conteúdo independente ou autônomo,é usada em blogs para postagens,  comentários do usuário, e outros conteúdos que podem ser  independentemente.
 -- ----- ----- -----
-<head>
-Estrutura, contém metadados/informações sobre o documento, é usada: No início do documento HTML, antes do corpo.
+<aside>
+Tipo: Estrutura/Semântica define um conteúdo tangencial ao conteúdo principal, como barras laterais, chamadas à ação, ou inserções publicitárias.
 -- ----- ----- -----
-<title>
-Metadados, define o título do documento, é usada: Dentro do elemento <head>.
+<audio>
+Tipo: Estrutura/Semântica é utilizado para embutir conteúdo de som em um documento HTML.
+-- ----- ----- -----
+<br>
+Tipo: Quebra de linha, insere uma quebra de linha simples. É usada para criar uma nova linha dentro de um parágrafo ou outro elemento, sem iniciar um novo parágrafo.
 -- ----- ----- -----
 <body>
 Estrutura, define o corpo do documento, é usada: Para encapsular o conteúdo principal do documento.
+-- ----- ----- -----
+<button>
+Tipo: Botão
+Define um botão clicável.
+-- ----- ----- -----
+<blockquote>
+Tipo: Citação, define uma seção que é citada de outra fonte. Usada para destacar citações longas de outros conteúdos, normalmente é exibida com recuo em relação ao texto principal.
+-- ----- ----- -----
+<canvas>
+pode ser utilizado para desenhar gráficos utilizando scripts (geralmente JavaScript).
+-- ----- ----- -----
+<cite>
+ representa uma referência a um trabalho artístico. Deve incluir o título do trabalho ou uma URL de referência, que pode ser em uma forma abreviada de acordo com as convenções usadas para a adição dos metadados de citação.
+-- ----- ----- -----
+<div>
+Tipo: Agrupamento, define uma divisão ou uma seção é usada para agrupar elementos e aplicar estilos CSS ou scripts.
+-- ----- ----- -----
+<dd>
+ fornece detalhes ou uma definição mais completa do termo precedente (definido por <dt>) numa lista de descrições (<dl>).
+-- ----- ----- -----
+<dl>
+Tipo: Lista, define uma lista de descrição em HTML, utilizada para agrupar um conjunto de termos e suas descrições correspondentes. Dentro de uma <dl>, você geralmente encontrará pares de tags <dt> (termo de descrição) e <dd> (descrição do termo).
+-- ----- ----- -----
+<dt>
+ identifica um termo na lista de definição. Este elemento pode ocorrer somente em um elemento filho de <dl>. Geralmente seguido por um elemento <dd>; ou multiplos <dt> na mesma linha indicam vários termos sendo definidos pelo próximo element <dd>.
+-- ----- ----- -----
+<details>
+Tipo: Interativo, é usada para criar um widget que o usuário pode expandir ou contrair para mostrar ou esconder conteúdo. Útil para FAQs ou para esconder informações detalhadas que não são imediatamente necessárias.
+-- ----- ----- -----
+<em>
+Tipo: Texto
+ é usada para indicar ênfase no texto pode ser usada em qualquer parte do corpo do texto onde se deseja enfatizar certas palavras ou frases. O conteúdo dentro de <em> geralmente é exibido em itálico pelos navegadores, mas o principal objetivo é semântico, destacando a importância ou a ênfase do texto, em vez de apenas estilizá-lo.
+-- ----- ----- -----
+<fieldset>
+ é usado para agrupar elementos, assim como labels (<label>), dentro de um formulário web.
+-- ----- ----- -----
+<figcaption>
+representa uma legenda ou uma legenda associada com uma figura ou ilustração descrita pelo resto dos dados do elemento <figure> que seu elemento pai.
+-- ----- ----- -----
+<figure>
+Quando se deseja agrupar uma mídia com uma legenda (<figcaption>), separando-a do fluxo principal do texto, mas mantendo a relação com o conteúdo próximo.
+-- ----- ----- -----
+<footer>
+Tipo: Estrutura/Semântica, define o rodapé de uma página ou seção, tipicamente contendo informações como contato, direitos autorais e links para documentos legais é usada no final das seções <body>, <article>, ou <section>.
+-- ----- ----- -----
+<form>
+Tipo: Formulário define um formulário HTML para entrada do usuário.
 -- ----- ----- -----
 <h1>
 Texto (Cabeçalho), define o cabeçalho de nível mais alto e mais importante na página, é usada: Geralmente para o título principal da página ou de seções importantes. É crucial para a SEO.
@@ -32,68 +93,90 @@ Texto (Cabeçalho), cabeçalho de terceiro nível, menos proeminente que <h2>, �
 <h4>, <h5>, <h6>
 Texto (Cabeçalho), cabeçalhos de níveis inferiores, cada um progressivamente menos importante.
 -- ----- ----- -----
-<p>
-Texto, define um parágrafo, é usada: Para organizar o texto em blocos.
+<html>
+Estrutura, define a raiz de um documento HTML, é usada: Para encapsular todos os elementos HTML na página.
 -- ----- ----- -----
-<a>
-Hiperlink, define um hiperlink, é usada: Para linkar para outras páginas ou recursos.
+<head>
+Estrutura, contém metadados/informações sobre o documento, é usada: No início do documento HTML, antes do corpo.
+-- ----- ----- -----
+<hr>
+Tipo: Quebra temática, insere uma linha horizontal de quebra temática no documento. É usada para separar conteúdo ou seções dentro de um documento, indicando uma mudança de tópico ou uma pausa.
+-- ----- ----- -----
+<header>
+Tipo: Estrutura/Semântica, é utilizada para definir o cabeçalho de uma página ou de uma seção específica dentro da página é usada geralmente localizada no topo da página ou seção, a <header> pode conter elementos como títulos, logotipos, links de navegação, formulários de pesquisa, e outras informações introdutórias ou navegacionais.
+-- ----- ----- -----
+<iframe>
+Tipo: Incorporação define um quadro embutido, que é essencialmente uma janela para outra página da web é usada para incorporar outra página HTML, vídeo, mapa ou outro conteúdo interativo dentro de uma página da web. Muito usada para incorporar conteúdo como vídeos do YouTube, mapas do Google Maps, etc.
 -- ----- ----- -----
 <img>
 Imagem, incorpora uma imagem, é usada: Para adicionar imagens ao documento.
--- ----- ----- -----
-<figure>
-Quando se deseja agrupar uma mídia com uma legenda (<figcaption>), separando-a do fluxo principal do texto, mas mantendo a relação com o conteúdo próximo.
--- ----- ----- -----
-<ul>
-Tipo Lista, define listas não ordenadas, ordenadas e itens de lista.
--- ----- ----- -----
-<ol>
-Os itens da lista são marcados com números por padrão.
--- ----- ----- -----
-<li>
-
-Tipo Lista, define um item de lista, usado dentro de listas ordenadas (<ol>) ou não ordenadas (<ul>) é usada: Dentro de elementos <ul> ou <ol>. 
--- ----- ----- -----
-
-<div>
-
-Tipo: Agrupamento, define uma divisão ou uma seção é usada para agrupar elementos e aplicar estilos CSS ou scripts.
--- ----- ----- -----
-<address>
-Tipo: Contato/Semântica, é utilizada para fornecer informações de contato para o autor/proprietário de um documento ou artigo.
- é usada (<footer>) de uma página ou artigo, mas pode ser usada em qualquer local onde as informações de contato sejam relevantes. A tag <address> pode incluir informações como endereço físico, URL, endereço de e-mail, números de telefone ou qualquer outra forma de contato.
--- ----- ----- -----
-<span>
-
-Tipo: Texto/Agrupamento, define um grupo de texto inline é usada para estilizar partes do texto ou agrupar elementos inline para estilização.
--- ----- ----- -----
-<section>
-Tipo: Estrutura/Semântica, define uma seção dentro de um documento, é usada para organizar o conteúdo em seções lógicas, ajudando na estruturação semântica da página.
--- ----- ----- -----
-<article>
-Tipo: Estrutura/Semântica, representa um conteúdo independente ou autônomo,é usada em blogs para postagens,  comentários do usuário, e outros conteúdos que podem ser  independentemente.
--- ----- ----- -----
-<aside>
-Tipo: Estrutura/Semântica define um conteúdo tangencial ao conteúdo principal, como barras laterais, chamadas à ação, ou inserções publicitárias.
--- ----- ----- -----
-<form>
-
-Tipo: Formulário define um formulário HTML para entrada do usuário.
 -- ----- ----- -----
 <input>
 
 Tipo: Entrada de dados define um campo de entrada.
 -- ----- ----- -----
-<button>
-Tipo: Botão
-Define um botão clicável.
+<label>
+Tipo: Formulário, define um rótulo para um elemento <input>. É usada para melhorar a acessibilidade, associando texto descritivo a controles de formulário específicos.
+-- ----- ----- -----
+<legend>
+representa um rótulo para o conteúdo do seu ancestral <fieldset>.
+-- ----- ----- -----
+<li>
+Tipo Lista, define um item de lista, usado dentro de listas ordenadas (<ol>) ou não ordenadas (<ul>) é usada: Dentro de elementos <ul> ou <ol>. 
+-- ----- ----- -----
+
+<main>
+Tipo: Estrutura/Semântica, representa o conteúdo principal de um documento, exclusivo ao documento, é usada para destacar o conteúdo central da página, facilitando a acessibilidade.
+-- ----- ----- -----
+<map>
+O elemento HTML <map> é usado com os elementos <area> para definir um mapa de imagem
+-- ----- ----- -----
+<meta charset="UTF-8">
+Tipo: Metadados, specifica o conjunto de caracteres (encoding) usado no documento HTML. UTF-8 é um conjunto de caracteres universal que inclui praticamente todos os caracteres de todos os idiomas do mundo, o que o torna uma escolha segura e comum para a codificação de caracteres deve ser colocada dentro do elemento <head> do seu documento HTML. Ela ajuda a garantir que o documento seja corretamente interpretado e exibido pelo navegador, independentemente da plataforma ou localização do usuário.
+-- ----- ----- -----
+<nav>
+Tipo: Estrutura/Semântica, define um conjunto de links de navegação é usada para blocos de navegação principal, como menus de cabeçalho ou rodapé.
+-- ----- ----- -----
+<ol>
+Os itens da lista são marcados com números por padrão.
+-- ----- ----- -----
+<option>
+Tipo: Entrada de dados, define uma opção dentro de um elemento <select>. Cada <option> representa uma escolha disponível dentro do campo de seleção.
+-- ----- ----- -----
+<p>
+Texto, define um parágrafo, é usada: Para organizar o texto em blocos.
+-- ----- ----- -----
+<picture>
+é um container usado para especificar múltiplos elementos <source> para um elemento específico <img> contido nele. O navegador irá escolher a imagem mais adequada de acordo com o layout atual da página, caracteristicas do dispositivo em que será exibido (p.e. um dispositivo normal ou um hiDPI)
+-- ----- ----- -----
+<q>
+Tipo: Citação, define uma citação curta. Ao contrário de <blockquote>, que é usado para citações mais longas e destacadas, <q> é usado para citações curtas dentro do fluxo do texto e geralmente é exibido com aspas.
+-- ----- ----- -----
+<summary>
+Tipo: Interativo, define um título visível para o conteúdo escondido dentro de <details>. Quando clicado, expande e revela o conteúdo associado.
+-- ----- ----- -----
+<strong>
+Tipo: Texto, é usada para dar ênfase forte ao texto, geralmente exibido em negrito pelos navegadores. Diferente de <em>, que indica ênfase, <strong> indica importância, seriedade ou urgência para o conteúdo.
+-- ----- ----- -----
+<span>
+Tipo: Texto/Agrupamento, define um grupo de texto inline é usada para estilizar partes do texto ou agrupar elementos inline para estilização.
+-- ----- ----- -----
+<section>
+Tipo: Estrutura/Semântica, define uma seção dentro de um documento, é usada para organizar o conteúdo em seções lógicas, ajudando na estruturação semântica da página.
+-- ----- ----- -----
+<select>
+Tipo: Entrada de dados, define um campo de seleção que contém uma ou mais opções <option>. É usada para fornecer uma lista de opções da qual o usuário pode escolher.
+-- ----- ----- -----
+<title>
+Metadados, define o título do documento, é usada: Dentro do elemento <head>.
+-- ----- ----- -----
+<textarea>
+Tipo: Entrada de dados, define uma área de texto de múltiplas linhas. É usada para entrada de texto longo pelo usuário, como comentários ou descrições.
 -- ----- ----- -----
 <table>
 Tipo: Tabela, define uma tabela usada para criar uma estrutura de tabela, que pode conter linhas, células de cabeçalho, células de dados, entre outros elementos relacionados.
 -- ----- ----- -----
-<footer>
-Tipo: Estrutura/Semântica, define o rodapé de uma página ou seção, tipicamente contendo informações como contato, direitos autorais e links para documentos legais é usada no final das seções <body>, <article>, ou <section>.
--- ----- ----- -----
+
 <tr>
 Tipo: Tabela , define uma linha em uma tabela, é usada dentro de uma <table>, para criar linhas horizontais que contêm células de dados (<td>) ou células de cabeçalho (<th>).
 -- ----- ----- -----
@@ -112,16 +195,8 @@ Tipo: Tabela, define o corpo principal de uma tabela, agrupando as linhas de con
 <tfoot>
 Tipo: Tabela, define o rodapé de uma tabela, agrupando as últimas linhas com informações de resumo ou totalização é usada no final de uma <table>, depois de <tbody> e/ou <thead>. Utilizada para sumarizar ou concluir os dados apresentados na tabela.
 -- ----- ----- -----
-<iframe>
-Tipo: Incorporação define um quadro embutido, que é essencialmente uma janela para outra página da web é usada para incorporar outra página HTML, vídeo, mapa ou outro conteúdo interativo dentro de uma página da web. Muito usada para incorporar conteúdo como vídeos do YouTube, mapas do Google Maps, etc.
--- ----- ----- -----
-<main>
-
-Tipo: Estrutura/Semântica, representa o conteúdo principal de um documento, exclusivo ao documento, é usada para destacar o conteúdo central da página, facilitando a acessibilidade.
--- ----- ----- -----
-<header>
-Tipo: Estrutura/Semântica, é utilizada para definir o cabeçalho de uma página ou de uma seção específica dentro da página é usada geralmente localizada no topo da página ou seção, a <header> pode conter elementos como títulos, logotipos, links de navegação, formulários de pesquisa, e outras informações introdutórias ou navegacionais.
-
+<ul>
+Tipo Lista, define listas não ordenadas, ordenadas e itens de lista.
 -- ----- ----- -----
 Elementos block:
 
@@ -134,51 +209,4 @@ Elementos inline:
 Ao contrário dos elementos block, os elementos inline não começam em uma nova linha. Eles aparecem na mesma linha que o conteúdo adjacente e só ocupam tanto espaço quanto necessário para o conteúdo.
 Eles não criam uma nova "caixa" ao redor de si; em vez disso, se encaixam no fluxo de linha junto com outros elementos inline ou texto.
 Exemplos comuns incluem <span>, <a>, <strong>, e <em>.
--- ----- ----- -----
-<nav>
-Tipo: Estrutura/Semântica, define um conjunto de links de navegação é usada para blocos de navegação principal, como menus de cabeçalho ou rodapé.
--- ----- ----- -----
-<meta charset="UTF-8">
-Tipo: Metadados, specifica o conjunto de caracteres (encoding) usado no documento HTML. UTF-8 é um conjunto de caracteres universal que inclui praticamente todos os caracteres de todos os idiomas do mundo, o que o torna uma escolha segura e comum para a codificação de caracteres deve ser colocada dentro do elemento <head> do seu documento HTML. Ela ajuda a garantir que o documento seja corretamente interpretado e exibido pelo navegador, independentemente da plataforma ou localização do usuário.
--- ----- ----- -----
-<dl>
-Tipo: Lista, define uma lista de descrição em HTML, utilizada para agrupar um conjunto de termos e suas descrições correspondentes. Dentro de uma <dl>, você geralmente encontrará pares de tags <dt> (termo de descrição) e <dd> (descrição do termo).
--- ----- ----- -----
-<em>
-
-Tipo: Texto
- é usada para indicar ênfase no texto pode ser usada em qualquer parte do corpo do texto onde se deseja enfatizar certas palavras ou frases. O conteúdo dentro de <em> geralmente é exibido em itálico pelos navegadores, mas o principal objetivo é semântico, destacando a importância ou a ênfase do texto, em vez de apenas estilizá-lo.
--- ----- ----- -----
-<details>
-Tipo: Interativo, é usada para criar um widget que o usuário pode expandir ou contrair para mostrar ou esconder conteúdo. Útil para FAQs ou para esconder informações detalhadas que não são imediatamente necessárias.
--- ----- ----- -----
-<summary>
-Tipo: Interativo, define um título visível para o conteúdo escondido dentro de <details>. Quando clicado, expande e revela o conteúdo associado.
--- ----- ----- -----
-<strong>
-Tipo: Texto, é usada para dar ênfase forte ao texto, geralmente exibido em negrito pelos navegadores. Diferente de <em>, que indica ênfase, <strong> indica importância, seriedade ou urgência para o conteúdo.
--- ----- ----- -----
-<blockquote>
-Tipo: Citação, define uma seção que é citada de outra fonte. Usada para destacar citações longas de outros conteúdos, normalmente é exibida com recuo em relação ao texto principal.
--- ----- ----- -----
-<q>
-Tipo: Citação, define uma citação curta. Ao contrário de <blockquote>, que é usado para citações mais longas e destacadas, <q> é usado para citações curtas dentro do fluxo do texto e geralmente é exibido com aspas.
--- ----- ----- -----
-<br>
-Tipo: Quebra de linha, insere uma quebra de linha simples. É usada para criar uma nova linha dentro de um parágrafo ou outro elemento, sem iniciar um novo parágrafo.
--- ----- ----- -----
-<hr>
-Tipo: Quebra temática, insere uma linha horizontal de quebra temática no documento. É usada para separar conteúdo ou seções dentro de um documento, indicando uma mudança de tópico ou uma pausa.
--- ----- ----- -----
-<label>
-Tipo: Formulário, define um rótulo para um elemento <input>. É usada para melhorar a acessibilidade, associando texto descritivo a controles de formulário específicos.
--- ----- ----- -----
-<select>
-Tipo: Entrada de dados, define um campo de seleção que contém uma ou mais opções <option>. É usada para fornecer uma lista de opções da qual o usuário pode escolher.
--- ----- ----- -----
-<option>
-Tipo: Entrada de dados, define uma opção dentro de um elemento <select>. Cada <option> representa uma escolha disponível dentro do campo de seleção.
--- ----- ----- -----
-<textarea>
-Tipo: Entrada de dados, define uma área de texto de múltiplas linhas. É usada para entrada de texto longo pelo usuário, como comentários ou descrições.
 -- ----- ----- -----

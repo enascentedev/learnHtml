@@ -16,12 +16,12 @@
 		</button>
 	</form>
 
-	<address class="flex-1 flex gap-2 text-right text-sm not-italic">
+	<address class="flex-1 flex-col gap-2 text-right text-sm not-italic">
 		<span>Versão 2023 / 46.2.317</span>
 		<div class="flex justify-end">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ZDF_logo%21_Logo_2021.svg/768px-ZDF_logo%21_Logo_2021.svg.png?20211204213142" alt="Logotipo" class="w-20 h-10 items-end my-2" />
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ZDF_logo%21_Logo_2021.svg/768px-ZDF_logo%21_Logo_2021.svg.png?20211204213142" alt="Logotipo" class="w-20 h-10 items-end my-2"/>
 		</div>
-		<p class="mb-2">
+		<p >
 			Av. Dr. Nilo Peçanha, 1851 - Conjunto 301 - Bairro Três Figueiras -<br />
 			Porto Alegre, RS - Cep: 91330-000
 		</p>
@@ -30,5 +30,5 @@
 			contato@webglobal.com.br
 		</a>
 	</address>
-<!-- melhorar questões das tags do address  e analisar o por que do mb-2-->
+<!-- melhorar questões das tags do address e analisar o por que do mb-2-->
 </footer>

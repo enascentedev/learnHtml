@@ -72,7 +72,7 @@
 	<div class="flex justify-between items-center px-2 py-2 rounded-md bg-gray-100">
 		<div class="flex gap-2 items-center">
 			<h2 class="font-bold text-sm">Filtros Selecionados:</h2>
-			<!-- <p class="text-sm">Produtos Disponíveis</p>rever -->
+			<p class="text-sm">Produtos Disponíveis</p>
 		</div>
 
 		<ul class="flex gap-4 items-center">
@@ -89,13 +89,13 @@
 				</button>
 			</li>
 			<li>
-				<button class="flex items-center gap-2 px-3 py-1 text-sm text-blue-600 rounded-md bg-gray-200 ">
+				<button class="flex items-center gap-2 px-3 py-1 text-sm text-blue-600 rounded-md bg-gray-200">
 					<i class="fas fa-sort"></i>
 					<span>Ordenar</span>
 				</button>
 			</li>
 			<li>
-				<button class="flex items-center gap-2 px-3 py-1 text-sm text-blue-600 rounded-md bg-gray-200 hover:bg-blue-50">
+				<button class="flex items-center gap-2 px-3 py-1 text-sm text-blue-600 rounded-md bg-gray-200">
 					<i class="fas fa-download"></i>
 					<span>Exportar</span>
 				</button>
@@ -107,9 +107,9 @@
 		<thead>
 			<tr class="py-4 text-xs text-gray-600 uppercase bg-gray-200">
 				<th class="w-1/12 px-2 py-4  text-left text-xs uppercase">Marca</th>
-				<th class="w-9/12 px-2  text-left text-xs uppercase">Produto</th>
-				<th class="w-1/12 px-2  text-left text-xs uppercase">Lojas</th>
-				<th class="w-1/12 px-2  text-left text-xs uppercase">Mais Barato</th>
+				<th class="w-9/12 px-2 text-left text-xs uppercase">Produto</th>
+				<th class="w-1/12 px-2 text-left text-xs uppercase">Lojas</th>
+				<th class="w-1/12 px-2 text-left text-xs uppercase">Mais Barato</th>
 				<th class="w-1/12 px-2 "></th>
 			</tr>
 		</thead>
@@ -129,7 +129,7 @@
 					<span>3 lojas</span>
 				</td>
 				<td class="px-4 py-3">
-					<button class="px-3 py-1 text-xs text-white rounded-md bg-green-400">R$ 0,79</button> rever
+					<button class="px-3 py-1 text-xs text-white rounded-md bg-green-400">R$ 0,79</button> 
 				</td>
 				<td class="px-4 text-sm text-gray-500">
 					<i class="fas fa-cog"></i>
@@ -150,7 +150,7 @@
 					<span>5 lojas</span>
 				</td>
 				<td class="px-4 py-3">
-					<button class="px-3 py-1 text-xs text-white rounded-md  bg-orange-400">R$ 0,79</button>
+					<button class="px-3 py-1 text-xs text-white rounded-md bg-orange-400">R$ 0,79</button>
 				</td>
 				<td class="px-4 text-sm text-gray-500">
 					<i class="fas fa-cog"></i>

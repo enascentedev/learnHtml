@@ -16,12 +16,12 @@
 </head>
 
 <body class="h-screen flex flex-col">
-	<?php include 'header.php'; ?>
+	<?php include 'header.php';?>
 	<main class="flex gap-5 justify-center items-center p-5 bg-gray-300 ">
-		<?php include 'aside.php'; ?>
-		<?php include 'main.php'; ?>
+		<?php include 'aside.php';?>
+		<?php include 'main.php';?>
 	</main>
-	<?php include 'footer.php'; ?>
+	<?php include 'footer.php';?>
 </body>
 
 </html>
